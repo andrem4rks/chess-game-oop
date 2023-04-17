@@ -26,10 +26,10 @@ public class Program {
 
                 ChessPiece capturedPiece = chessMatch.performChessMove(source, target);
             } catch (ChessException e) {
-                System.out.println(e.getMessage() + " Press enter to continue");
+                System.out.println(e.getMessage() + "\nPress enter to continue");
                 sc.nextLine();
             } catch (InputMismatchException e) {
-                System.out.println(e.getMessage() + " Press enter to continue");
+                System.out.println(e.getMessage() + "\nPress enter to continue");
                 sc.nextLine();
             }
         }
